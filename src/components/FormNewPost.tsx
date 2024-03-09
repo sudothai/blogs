@@ -38,7 +38,7 @@ const FormNewPost = () => {
         <div className="mb-4">
             <Textarea name="content" className={inputClass} placeholder="Enter the content" value={formData.content} onChange={handleChange} />
         </div>
-        <Button type="submit" className="w-full">Submit</Button>
+        <Button type="submit" className="w-full bg-blue-700">Submit</Button>
        </form> 
       );
 }
